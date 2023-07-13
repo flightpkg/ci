@@ -1,2 +1,2 @@
-curl https://pnpm.js.org/pnpm.js -o ~/pnpm.js
-node ~/pnpm.js i && node ~/pnpm.js run compile
+curl -f https://get.pnpm.io/v6.16.js | node - add --global @pnpm/exe
+pnpm i && pnpm run compile
